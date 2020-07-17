@@ -1,0 +1,410 @@
+
+/*------ Ellement selectors -----*/
+
+body{
+    background: #fff;
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+
+h2, h3{color: lightseagreen;}
+
+h3{
+    font-size: 25px;
+    padding: 10px 0 ;
+    font-style: oblique normal;
+    font-weight: bold;
+}
+p{ 
+    line-height: 2;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-top-width: 20px ;
+    width: 150px;
+    border-color: lightgray;
+}
+
+.down-line{
+    border-style: none;
+    border-top-style: dotted;
+    border-top-width: 15px ;
+    width: 90px;
+    border-color: rgb(15, 187, 15);
+}
+
+/*span{
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 15px;
+}*/
+
+hr{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    animation: blink .80s infinite;
+}
+
+div{
+    display: block;
+}
+/*----MEnu-----*/
+
+.menu{
+    float: right;
+    border-radius: 100px;
+    
+}
+
+/*------Class Selectors-------*/
+
+/*-----Top container styling-----*/
+
+.top-container{
+    background-color: rgba(129, 255, 255, 0.336);
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 300px;
+}
+
+.toy{
+    position: absolute;
+    left: 0;
+    top: 15px;
+
+}
+
+.mid-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.mountain{
+    position: auto;
+    max-width: 598px;
+    min-width: 598px;
+    max-height: 357px;
+    min-height: 357px;
+}
+
+
+.about{
+    text-align: center;
+    display: block;
+    text-shadow: solid white 10px;
+}
+
+#me{
+    font-size: 70px;
+    font-style: italic;
+    font-family: cursive arial serif;
+    margin: 50px auto 15px auto;
+}
+
+#skill{
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+/*---- Profile division styling------*/
+
+.profile{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px auto;
+}
+
+.profile-text{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.dp{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.greetings{
+    font-size: 70px;
+    font-style: italic;
+}
+
+
+.note{
+    width: 65%;
+    margin: 40px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*------ Middle container styling--- Skills and projects division  -----*/
+
+.mid-container{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.skill-row{
+    width: 45%;
+    margin: 50px auto;
+}
+
+.sidetree{
+    position: absolute;
+    right: 20px;
+    bottom: -60px;
+}
+
+/*-----bottom container----*/
+
+.bottom-container{
+    position: relative;
+    text-align: center;
+    display: block;
+}
+
+.contact-message{
+    width: 50%;
+    margin: 40px auto 30px;
+    padding-bottom: 10px;
+}
+
+/*#cursor{
+    border-right: 2px solid black;
+    margin-left: 4px;
+    animation-name: blink;
+    animation-timing-function: ease-in-out;
+    animation-direction: .80s;
+    animation-iteration-count: infinite;
+}
+*/
+
+.cursor {
+    border-right: 2px solid black;
+    margin-left: 4px;
+    animation: Blink .70s infinite
+}
+
+@keyframes Blink {
+    0% {border-color: transparent;}
+    100% {border-color: black;}
+}
+
+.mail-me{
+    position: relative;
+    width: 250px; 
+    height:100px; 
+    padding: 10px 20px;
+    margin: 20px; auto;
+    background: #11cdd4; 
+    border-radius: 15px; 
+    color: black; 
+    font-size: 15px bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.mail-me:before{
+        content: ""; position: absolute;
+        bottom: -20px; left: 25px;
+        border-top: 30px solid #11cdd4;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+}
+
+.mail-me:hover{
+    color:  #ffffff;
+}
+
+.message{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/*----- Footer division about following me -----*/
+
+.footer{
+    position: relative;
+    background-color: rgb(35, 192, 163);
+    height: 200PX;
+    width: auto;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+.contact-address{
+    display:i inline-flex;
+    padding: 10px 8px;
+    margin-top: 50px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.contact-address:hover{
+    background-color: white;
+}
+
+/*
+.semi-circle{
+    background: white;
+    width: 50%;
+    position: absolute;
+    left: 28%;
+    border-radius: 50px;
+}
+*/
+
+.footer-note{
+    padding: 20px;
+    margin-top: 100px;
+    color: #ffffff;
+    font-family: cursive,;
+}
+
+#fbook {
+    border-radius: 100%;
+    text-align: center;
+}
+
+#lkin{
+    border-radius: 100%;
+    
+}
+
+/*------MENU STYLING-----*/
+
+/*nav{
+    width: 0;
+    height: 0;
+    margin: auto;
+    border: 20px solid red;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-color: chartreuse;
+    border-left-color:gray ;
+    border-right-color: black;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+.drop-button{
+    width: 0;
+    height: 0;
+    margin: auto;
+    border: 20px solid red;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-color: chartreuse;
+    border-left-color:gray ;
+    border-right-color: black;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 100px;
+} */
+
+.drop-button{
+    float: right;
+    width: 0;
+    height: 0;
+    margin: auto;
+    margin-right: 70px;
+    border-style: none;
+    text-align: center;
+}
+
+.dropdown{
+    position: relative;
+    display: block;
+}
+
+.drop-content{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    /*margin-top: 10px;*/
+    right: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0,.2)
+}
+
+.drop-content a{
+    background-color: rgb(35, 192, 163);
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    border-radius: 100px;
+    margin-top: 5px;
+}
+
+#menu-bar{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+
+}
+
+.drop-content a:hover{
+    background-color: white;
+    color: black;
+}
+
+nav:hover .drop-content{
+    display: block;
+   
+}
+
+.drop-button:hover {
+    background-color:white;
+}
+
+/*button area 
+button{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 12px;
+    display: block;
+    border-radius: 100px;
+    transition: all 1s;
+}*/
+
+
+button:hover{
+    box-shadow: 0 5px 10px hsla(155, 55%, 40%, 0.2);
+}
+
+/*-----Queries-----*/
+
+@media( max-width: 700px){
+    body{
+        grid-template-areas: 
+        'top-container'
+        'profile'
+        'mid-container'
+    }
+}
+
